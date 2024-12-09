@@ -1,0 +1,169 @@
+﻿@model IEnumerable<WebAPI.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .pagination {
+        display: flex;
+        gap: 10px;
+        margin: 20px 0;
+        font-family: Arial, sans-serif;
+    }
+
+        .pagination a {
+            text-decoration: none;
+            color: #007bff;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+            .pagination a:hover {
+                background-color: #f0f0f0;
+                border-color: #007bff;
+            }
+
+            .pagination a.active {
+                background-color: #007bff;
+                color: #fff;
+                border-color: #007bff;
+            }
+
+            .pagination a:disabled {
+                pointer-events: none;
+                color: #ccc;
+                border-color: #ccc;
+            }
+
+</style>
+<h1>Product</h1>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title"><a asp-action="Create" class="btn btn-primary">Create New</a></h2>
+                <div class="card-tools mt-2">
+                    <form asp-action="Index" method="get">
+                        <div class="input-group input-group-sm" style="width: 250px;">
+                            <input type="text" name="name" class="form-control" value="@ViewData["SearchName"] " placeholder="Search...">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Category</th>
+                            <th>Price</th>
+                            <th>SalePrice</th>
+                            <th>Supplier</th>
+                            <th>Image</th>
+                            <th>Stock</th>
+                            <th>Active</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            if (Model == null || !Model.Any())
+                            {
+                                <h4 class="text-center">No data available</h4>
+                            }
+
+                            {
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.ProductId)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.ProductName)
+                                        </td>
+                                        <td>
+
+                                            @Html.DisplayFor(modelItem => item.CategoryId)
+
+
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Price)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.SalePrice)
+                                        </td>
+                                        <td>
+
+
+                                            @Html.DisplayFor(modelItem => item.SupplierId)
+
+                                        </td>
+                                        <td>
+                                       
+                                                <img src="@ViewBag.url@item.Image" width="70" />
+                                          
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Stock)
+                                        </td>
+                                        <td>
+                                            <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-primary">Edit</a>
+                                            <a asp-action="Delete" asp-route-id="@item.ProductId" onclick="return confirm('Are you sure you want to delete?')" class="btn btn-danger">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- Phân trang -->
+        @{
+            int currentPage = (int)ViewData["CurrentPage"];
+            int totalPages = (int)ViewData["TotalPages"];
+            string searchName = (string)ViewData["SearchName"];
+            int pageSize = (int)ViewData["PageSize"];
+        }
+        @if (totalPages > 1) // Chỉ hiển thị phân trang nếu có nhiều hơn 1 trang
+        {
+            <div class="pagination">
+                @if (currentPage > 1)
+                {
+                    string previousPageUrl = Url.Action("Index", new { page = currentPage - 1, pageSize = ViewData["PageSize"], name = ViewData["SearchName"] });
+
+                    <a href="@previousPageUrl">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                }
+
+                @for (int i = 1; i <= totalPages; i++)
+                {
+                    string pageUrl = Url.Action("Index", new { page = i, pageSize = ViewData["PageSize"], name = ViewData["SearchName"] });
+
+                    <a href="@pageUrl" class="@(currentPage == i ? "active" : "")">@i</a>
+                }
+
+                @if (currentPage < totalPages)
+                {
+                    string nextPageUrl = Url.Action("Index", new { page = currentPage + 1, pageSize = ViewData["PageSize"], name = ViewData["SearchName"] });
+
+                    <a href="@nextPageUrl">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                }
+            </div>
+        }
+        <!-- /.card -->
+    </div>
+</div>

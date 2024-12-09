@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|c:\\users\\84976\\desktop\\luc thai\\webapi\\btl\\webapi\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E449E31A-E458-44A1-B911-8AC16E34B3E4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAPI\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "WebAPI\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T07:33:59.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:32:37.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAPI\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "WebAPI\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAG4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T07:26:11.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebAPI\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAgwKYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:25:54.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebAPI\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebAPI\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T07:20:40.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Views\\Shop\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebAPI\\Views\\Shop\\Details.cshtml",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Views\\Shop\\Details.cshtml",
+              "RelativeToolTip": "WebAPI\\Views\\Shop\\Details.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T06:57:15.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAPI\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "WebAPI\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T06:56:53.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwE8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T06:56:31.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAPI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebAPI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T06:45:26.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebAPI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAgwJIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T06:57:34.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T06:48:17.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAPI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebAPI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T06:44:55.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebAPI\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\WebAPI\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "WebAPI\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwA4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T06:10:50.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

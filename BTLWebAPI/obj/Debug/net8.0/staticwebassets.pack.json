@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\BTLWebAPI\\wwwroot\\images\\354761318_757305669412036_6203147469924315061_n.jpg",
+      "PackagePath": "staticwebassets\\images\\354761318_757305669412036_6203147469924315061_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\BTLWebAPI\\wwwroot\\images\\368266220_987482499069116_431315613270793447_n.jpg",
+      "PackagePath": "staticwebassets\\images\\368266220_987482499069116_431315613270793447_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\BTLWebAPI\\wwwroot\\images\\ACZU4743 - Copy.JPG",
+      "PackagePath": "staticwebassets\\images\\ACZU4743 - Copy.JPG"
+    },
+    {
+      "Id": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\BTLWebAPI\\wwwroot\\images\\item-cart-02.jpg",
+      "PackagePath": "staticwebassets\\images\\item-cart-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\BTLWebAPI\\wwwroot\\images\\product-01.jpg",
+      "PackagePath": "staticwebassets\\images\\product-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84976\\Desktop\\LUC THAI\\WebAPI\\BTL\\BTLWebAPI\\wwwroot\\images\\product-03.jpg",
+      "PackagePath": "staticwebassets\\images\\product-03.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BTLWebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BTLWebAPI.props",
+      "PackagePath": "build\\BTLWebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BTLWebAPI.props",
+      "PackagePath": "buildMultiTargeting\\BTLWebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BTLWebAPI.props",
+      "PackagePath": "buildTransitive\\BTLWebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

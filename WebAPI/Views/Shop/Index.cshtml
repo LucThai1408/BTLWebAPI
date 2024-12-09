@@ -1,0 +1,168 @@
+﻿@model IEnumerable<WebAPI.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Sub-Layout.cshtml";
+}
+
+<style>
+    .pagination {
+        display: flex;
+        gap: 10px;
+        margin: 20px 0;
+        font-family: Arial, sans-serif;
+    }
+
+        .pagination a {
+            text-decoration: none;
+            color: #007bff;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+            .pagination a:hover {
+                background-color: #f0f0f0;
+                border-color: #007bff;
+            }
+
+            .pagination a.active {
+                background-color: #007bff;
+                color: #fff;
+                border-color: #007bff;
+            }
+
+            .pagination a:disabled {
+                pointer-events: none;
+                color: #ccc;
+                border-color: #ccc;
+            }
+
+</style>
+
+<!-- Product -->
+<div class="bg0 m-t-23 p-b-140">
+    <div class="container">
+        <div class="flex-w flex-sb-m p-b-52">
+            <!-- Danh sách danh mục -->
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+                <!-- Nút All Products -->
+                <a asp-controller="Shop" asp-action="Index"
+                   class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 @(ViewBag.CurrentCategory == null ? "how-active1" : "")">
+                    All Products
+                </a>
+
+                <!-- Các danh mục -->
+                @foreach (var item in ViewBag.Categories)
+                {
+                    <a asp-controller="Shop" asp-action="ProductByCategory" asp-route-categoryId="@item.CategoryId"
+                       class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 @(ViewBag.CurrentCategory == item.CategoryId ? "how-active1" : "")">
+                        @item.CategoryName
+                    </a>
+                }
+            </div>
+        </div>
+
+        <div class="row isotope-grid">
+            <!-- Kiểm tra nếu không có sản phẩm -->
+            @if (!Model.Any())
+            {
+                <h4 class="text-center">No products available</h4>
+            }
+
+            <!-- Hiển thị danh sách sản phẩm -->
+            @foreach (var item in Model)
+            {
+                <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item">
+                    <div class="block2">
+                        <div class="block2-pic hov-img0">
+                            <img src="@ViewBag.url@item.Image" alt="IMG-PRODUCT">
+
+                            <a asp-controller="Shop" asp-action="Details" asp-route-id="@item.ProductId"
+                               class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+                                Quick View
+                            </a>
+                        </div>
+                        <div class="block2-txt flex-w flex-t p-t-14">
+                            <div class="block2-txt-child1 flex-col-l">
+                                <a asp-controller="Shop" asp-action="Details" asp-route-id="@item.ProductId"
+                                   class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+                                    @item.ProductName
+                                </a>
+
+                                <!-- Hiển thị giá -->
+                                <span class="price-wrapper">
+                                    @if (item.SalePrice > 0)
+                                    {
+                                        <span class="original-price text-muted">
+                                            <s>$@item.Price</s>
+                                        </span>
+                                        <span class="sale-price text-danger">
+                                            $@item.SalePrice
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="regular-price">
+                                            $@item.Price
+                                        </span>
+                                    }
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Phân trang -->
+        @{
+            int currentPage = (int)ViewData["CurrentPage"];
+            int totalPages = (int)ViewData["TotalPages"];
+            int pageSize = (int)ViewData["PageSize"];
+        }
+
+        <!-- Phân trang -->
+        @if (totalPages >=1) // Chỉ hiển thị phân trang khi số sản phẩm > pageSize
+        {
+            <div class="pagination">
+                @if (currentPage > 1)
+                {
+                    string previousPageUrl = ViewBag.CurrentCategory != null
+                    ? Url.Action("ProductByCategory", new { categoryId = ViewBag.CurrentCategory, page = currentPage - 1, pageSize = ViewData["PageSize"], name = ViewData["SearchName"] })
+                    : Url.Action("Index", new { page = currentPage - 1, pageSize = ViewData["PageSize"], name = ViewData["SearchName"] });
+
+                    <a href="@previousPageUrl">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                }
+
+                @for (int i = 1; i <= totalPages; i++)
+                {
+                    string pageUrl = ViewBag.CurrentCategory != null
+                    ? Url.Action("ProductByCategory", new { categoryId = ViewBag.CurrentCategory, page = i, pageSize = ViewData["PageSize"], name = ViewData["SearchName"] })
+                    : Url.Action("Index", new { page = i, pageSize = ViewData["PageSize"], name = ViewData["SearchName"] });
+
+                    <a href="@pageUrl" class="@(currentPage == i ? "active" : "")">@i</a>
+                }
+
+                @if (currentPage < totalPages)
+                {
+                    string nextPageUrl = ViewBag.CurrentCategory != null
+                    ? Url.Action("ProductByCategory", new { categoryId = ViewBag.CurrentCategory, page = currentPage + 1, pageSize = ViewData["PageSize"], name = ViewData["SearchName"] })
+                    : Url.Action("Index", new { page = currentPage + 1, pageSize = ViewData["PageSize"], name = ViewData["SearchName"] });
+
+                    <a href="@nextPageUrl">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                }
+            </div>
+        }
+
+
+
+    </div>
+
+</div>
+
+
